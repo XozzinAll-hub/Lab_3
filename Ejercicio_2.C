@@ -55,7 +55,7 @@ int main() {
     printf("La matriz es "), findLargestLine(matrix) ? printf("magica\n") : printf("no magica\n");
 
     //usando matrices aleatorias
-    for(int k = 0; k < SIZE; k++) {
+    for(int k = 0; k < SIZE; k++) {//genero 3 matrices aleatorias 
         int randomMatrix[SIZE][SIZE];
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
